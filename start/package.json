@@ -1,0 +1,18 @@
+{
+    "name": "graphql-intro",
+    "version": "1.0.0",
+    "description": "-   [Graphql?](https://graphql.org/) -   [Schema definitions](https://www.apollographql.com/docs/apollo-server/schema/schema#supported-types) -   [Query](https://www.apollographql.com/docs/apollo-server/schema/schema#the-query-type) -   [Handling arguments](https://www.apollographql.com/docs/apollo-server/data/resolvers#handling-arguments) -   Mutation     -   https://www.apollographql.com/docs/apollo-server/schema/schema#the-mutation-type     -   https://www.apollographql.com/tutorials/lift-off-part4/05-resolving-a-mutation-successfully -   [Memisahkan Query & Mutation ke file masing-masing](https://www.apollographql.com/docs/apollo-server/api/apollo-server/#options) -   https://www.apollographql.com/docs/apollo-server/data/errors/ -   https://www.apollographql.com/docs/apollo-server/data/context/ -   introspection: true",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@apollo/server": "^4.11.2",
+        "graphql": "^16.9.0",
+        "mongodb": "^6.10.0"
+    }
+}
